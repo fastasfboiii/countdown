@@ -14,12 +14,13 @@ body {
   h1 {
     color: white;
     text-align: center;
-    margin-top: 0;
+    margin-top: 0px;
+    font-size: 36px;
   }
   
   #countdown {
-    font-size: 32px;
-    margin-top: 20px;
+    font-size: 64px;
+    margin-top: 40px;
     text-align: center;
   }
   
