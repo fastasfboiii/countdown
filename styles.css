@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+    color: white;
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  #countdown {
+    font-size: 32px;
+    margin-top: 20px;
+  }
+  
+  #quote-container {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    animation: slide 8s infinite;
+  }
+  
+  @keyframes slide {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    33% { opacity: 1; }
+    43% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+  
+  #quote-container blockquote {
+    display: none;
+  }
+  
+  #quote-container blockquote.active {
+    display: block;
+  }
+  
+  #quote-container .quote-icon {
+    display: block;
+    margin-top: 10px;
+    font-size: 24px;
+  }
+  
+  #quote-container .quote-author {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
