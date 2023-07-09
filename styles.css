@@ -4,7 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(to bottom, #4e54c8, #8f94fb);
     color: white;
     margin: 0;
@@ -13,11 +13,14 @@ body {
   
   h1 {
     color: white;
+    text-align: center;
+    margin-top: 0;
   }
   
   #countdown {
     font-size: 32px;
     margin-top: 20px;
+    text-align: center;
   }
   
   #quote-container {
@@ -52,5 +55,13 @@ body {
   #quote-container .quote-author {
     margin-top: 10px;
     font-size: 14px;
+  }
+  
+  footer {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
   }
   

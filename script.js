@@ -40,7 +40,7 @@ function getQuoteAuthor(quote) {
   return '';
 }
 
-const targetDate = prompt("Enter the target date (YYYY-MM-DD HH:MM:SS)");
-updateCountdown(new Date(targetDate).getTime());
+const targetDate = new Date('2023-07-12').getTime();
+updateCountdown(targetDate);
 displayNextQuote();
 setInterval(displayNextQuote, 10800000); // Change quote every 3 hours (3 hours = 3 * 60 * 60 * 1000 milliseconds)
