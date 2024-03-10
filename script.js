@@ -52,7 +52,7 @@ function getQuoteAuthor(quote) {
   return '';
 }
 
-const targetDate = new Date('2023-08-07').getTime();
+const targetDate = new Date('2024-03-25').getTime();
 updateCountdown(targetDate);
 
 displayNextQuote();

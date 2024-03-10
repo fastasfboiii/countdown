@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to bottom, #b983ef, #760fca);
+    background: linear-gradient(to bottom, #ac1616, #000000);
     color: white;
     margin: 0;
     overflow: hidden;
@@ -15,7 +15,13 @@ body {
     color: white;
     text-align: center;
     margin-top: 0px;
-    font-size: 36px;
+    font-size: 56px;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 24px;
   }
   
   #countdown {
@@ -63,6 +69,6 @@ body {
     padding: 10px;
     text-align: center;
     font-size: 14px;
-    color: #333;
+    color: #6c6969;
   }
   
